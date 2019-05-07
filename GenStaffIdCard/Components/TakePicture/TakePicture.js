@@ -90,9 +90,9 @@ export default class TakePicture extends Component {
       // let pathPDF = PDFfile.filePath;
       Mailer.mail({
         subject: 'ID card employee',
-        recipients: ['duongminhhieu313@gmail.com'],
-        ccRecipients: ['duongminhhieu313@gmail.com'],
-        bccRecipients: ['duongminhhieu313@gmail.com'],
+        recipients: ['dumihi1@gmail.com'],
+        ccRecipients: ['dumihi1@gmail.com'],
+        bccRecipients: ['dumihi1@gmail.com'],
         body: '<b>ID Card</b>',
         isHTML: true,
         attachment: {
